@@ -19,7 +19,6 @@ html {
     padding-right:5%;
 }
 
-
 .text-container{
     display: flex;
     flex-direction: column;
@@ -39,7 +38,6 @@ html {
     width: 60%;
     padding-top: 2%;
 }
-
 
 .local-svg
 {
@@ -91,7 +89,7 @@ html {
 .portfolio-artwork{
     max-width: 100%;
     padding-top: 3%;
-
+    border: 1px solid white;
 }
 
 .portfolio-image{
