@@ -19,13 +19,16 @@ html {
     padding-right:5%;
 }
 
+
 .text-container{
     display: flex;
     flex-direction: column;
     align-items: top;
-    justify-content: center;
+    justify-content: space-between;
     height: 100%;  
-}
+    padding-right:5%;
+    padding-top:4%;
+    }
 
 
 .contact-buttons{
@@ -34,12 +37,25 @@ html {
     align-items: center;
     justify-content: space-between;
     width: 60%;
+    padding-top: 2%;
 }
+
+
 .local-svg
 {
     fill: white;
     height: 87px;
     width: 87px;
+}
+
+.back-image-portfolio {
+    background-image: linear-gradient(rgba(135, 224, 177, 0.4), rgba(0, 0, 0, 1)), url("end.png");
+    height: 100%;
+    backdrop-filter: blur(24px);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: sticky;
 }
 
 
@@ -51,6 +67,39 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: sticky;
+}
+
+.main-portfolio-container{
+    background-color: rgba(0, 0, 0, .0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: top;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.portfolio-element{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, .4);
+    color:white;
+    margin:0px;
+}
+
+.portfolio-image{
+    max-width: 35%;
+
+}
+
+.portfolio-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    width: 100%;
+    height:100%;
+    align-items: left;
 }
 
 .body-container{
@@ -74,6 +123,24 @@ html {
     max-width: 75%;
 }
 
+.portfolio-title {
+    text-align: left;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 20px;
+    padding-left: 2%;
+}
+
+.portfolio-text {
+    text-align: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-size:25px;
+    padding-right:4%;
+    padding-left: 2%;
+}
+
 .name-text {
     text-align: left;
     color: white;
@@ -93,8 +160,9 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
     letter-spacing: 60px;
+    line-height: 100%;
     height: 5%;
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -103,12 +171,9 @@ html {
 }
 
 
-.navbar {
-    overflow: hidden;
-    background-color: #FFFFFF;
-    position: sticky;
-    width: 100%;
-    height: 5%;
+
+.navbuttons{
+    align-items: right;
 }
 
 .topbar a {
@@ -119,7 +184,7 @@ html {
     display: block;
     color: #000000;
     text-align: center;
-    padding: 0px 15px;
+    padding: 0px 25px;
     text-decoration: none;
     font-size: 17px;
 }
