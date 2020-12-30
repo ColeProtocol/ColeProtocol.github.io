@@ -1,0 +1,127 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+/*
+    Auth: Sterling Cole, Beth Crompton
+    Last revised: 7/9/2020
+*/
+
+*{
+    margin:0;
+}
+
+
+.background {
+    background-color: rgba(0, 79, 118, 1);
+    height: 100%;
+    backdrop-filter: blur(8px);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: sticky;
+}
+
+.sigil-image {
+    position: sticky;
+    max-height: 75%;
+    max-width: 75%;
+}
+
+.main-container{
+    background-color: rgba(0, 0, 0, .0);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 2%;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    width: 100%;
+    height:100%;
+    align-items: left;
+}
+
+.widget-element{
+    overflow:hidden;
+    border-radius: 25px;
+    display: block;
+    background-color:white;
+    color:white;
+    width: 450px;
+    height:160px;
+    margin-bottom:2%;
+    margin-right:2%;
+    transition: width .5s;
+    transition: height .5s;        
+}
+
+.widget-element:hover{
+    width: 460px;
+    height:180px;
+    border-style: solid;    
+    border: #000000;
+    border-width: 5%;
+}
+
+.widget-red{
+    display: block;
+    background-color:red;
+    width: 100%;
+    height:30%;
+}
+
+.widget-green{
+    display: block;
+    background-color:green;
+    width: 100%;
+    height:30%;
+}
+
+.widget-text{
+    text-align: left;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 60px;
+    line-height: 100%;
+    height: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.topbar a {
+    letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topbar a:hover {
+    background: #ddd;
+    color: black;
+}
